@@ -15,7 +15,7 @@ function App() {
               <Route path="/toupiao" component={Toupiao}></Route>
               <Route path="/wode" component={Wode}></Route>
               <Route path="/faqi" component={Faqi}></Route>
-              <Route path="/detail" component={Detail}></Route>
+              <Route path="/detail/:id" component={Detail}></Route>
           </Switch>
      </BrowserRouter>
     </div>

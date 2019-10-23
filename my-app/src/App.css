@@ -27,3 +27,79 @@ section{
   width: 100%;
    flex: 1;
 }
+.conlist{
+   width: 80%;
+   height: 30px;
+   display: flex;
+   border: 1px solid red;
+   color: red;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+.conlist>span{
+   display: block;
+   flex: 3.33;
+   text-align: center;
+   line-height: 30px;
+   border-right: 1px solid red;
+}
+.contentlist{
+   width: 80%;
+   height: 60px;
+   display: flex;
+   border: 1px solid #ccc;
+   margin: 0 auto;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+.content{
+   width: 100%;
+   height: 100%;
+   background: #ccc;
+   align-items: center;
+   
+padding-top:5px;
+}
+.contents{
+   display: flex;
+   width: 95%;
+   height: 80px;
+   border-bottom: solid 1px gray;
+   margin: 10px;
+   background: white;
+   color: #666;
+}
+.left{
+   flex: 2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.imgs{
+   width: 80%;
+   height: 80%;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.right{
+   flex: 8;
+}
+.top{
+   display: flex;
+   width: 100%;
+   height: 40px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+}
+.bottom{
+
+   display: flex;
+   width: 100%;
+   padding: 0 10px;
+   justify-content: space-between;
+   align-items: center;
+}
+h5{
+   color: black;
+}

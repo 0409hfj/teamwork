@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {NavLink} from "react-router-dom"
 export default class Detail extends Component {
     render() {
+        console.log(this.props.match.params.id)
         return (
             <div className="wrap">
                 <header>
